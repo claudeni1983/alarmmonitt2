@@ -1,0 +1,14 @@
+
+### get AM_SLA
+POST http://localhost:4004/srv/updateSLA
+Content-Type: application/json
+# Authorization: Basic daniele.veron@lab2dev.com Dani@lab
+
+{
+    "payload":{
+        "ov":63532238,
+        "status":"821",
+        "data_sla": "2021-08-30",
+        "hra_sla": "11:00:00"
+    }
+}

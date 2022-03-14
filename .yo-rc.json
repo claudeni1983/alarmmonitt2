@@ -1,0 +1,13 @@
+{
+  "generator-saphanaacademy-odata": {
+    "projectName": "alarmmonitt2",
+    "newDir": true,
+    "hanaEndpoint": "69abe08f-1503-4988-9197-452520906b96.hana.prod-eu10.hanacloud.ondemand.com:443",
+    "hanaUser": "DBADMIN",
+    "hanaPassword": "ClaroScp#4321",
+    "schemaName": "ALARMMONIT",
+    "v2support": true,
+    "auth": false,
+    "buildDeploy": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "alarmmonitt2-db-ALARMMONIT": {
+        "object_owner": {
+            "roles": [
+                "alarmmonitt2_ALARMMONIT::EXTERNAL_ACCESS_G"
+            ]
+        },
+        "application_user": {
+            "roles": [
+                "alarmmonitt2_ALARMMONIT::EXTERNAL_ACCESS"
+            ]
+        }
+    }
+}
