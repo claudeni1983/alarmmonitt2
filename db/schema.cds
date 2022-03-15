@@ -11,7 +11,7 @@ key sequencial : String(32) not null;
 dt_st_atual : Date not null;
 hr_st_atual : Time not null;
 tipo_ov : String(50);
-status : Integer;
+status : String;
 org_vendas : String(4);
 cnl_distr : String(2);
 escr_vdas : String(4);

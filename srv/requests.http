@@ -5,10 +5,27 @@ Content-Type: application/json
 # Authorization: Basic daniele.veron@lab2dev.com Dani@lab
 
 {
-    "payload":{
-        "ov":63532238,
-        "status":"821",
+    "payload": {
+        "sequencial": "0050568C60C01EEC96BF274B5218CD27",
+        "numero_ov": 63532200,
+        "dt_st_atual": "2021-08-30",
+        "hr_st_atual": "08:53:08",
+        "tipo_ov": "ZBRU",
+        "status": "820",
+        "org_vendas": "5100",
+        "cnl_distr": "40",
+        "escr_vdas": "5184",
+        "eqp_vdas": "1Z5",
         "data_sla": "2021-08-30",
-        "hra_sla": "11:00:00"
+        "hra_sla": "11:00:00",
+        "nivel": 1,
+        "usuario": "93097166",
+        "btp": true,
+        "expresso": false,
+        "dta_slalocal": "2021-08-30",
+        "hra_slalocal": "11:00:00",
+        "email": "rpaulo@minsait.com",
+        "data_encerramento": null,
+        "hra_encerramento": "00:00:00"
     }
 }
