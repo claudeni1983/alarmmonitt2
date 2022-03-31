@@ -7,7 +7,7 @@ Content-Type: application/json
 {
     "payload": {
         "sequencial": "0050568C60C01EEC96BF274B5218CD27",
-        "numero_ov": 63532200,
+        "numero_ov": 431150461,
         "dt_st_atual": "2021-08-30",
         "hr_st_atual": "08:53:08",
         "tipo_ov": "ZBRU",
@@ -25,7 +25,29 @@ Content-Type: application/json
         "dta_slalocal": "2021-08-30",
         "hra_slalocal": "11:00:00",
         "email": "rpaulo@minsait.com",
-        "data_encerramento": null,
-        "hra_encerramento": "00:00:00"
+        "data_encerramento": "2022-03-22",
+        "hra_encerramento": "17:20:00"
     }
+}
+
+### get getRelatorioSintetic
+GET http://localhost:4004/srv/getRelatorioSintetic(from='2022-01-01T10:55:00Z',range=20)
+Content-Type: application/json
+# Authorization: Basic daniele.veron@lab2dev.com Dani@lab
+
+{
+    "payload": {        
+        "numero_ov": 63532200,        
+    }
+}
+
+### Post AM_JOB
+POST http://localhost:4004/srv/AM_JOB
+Content-Type: application/json
+# Authorization: Basic daniele.veron@lab2dev.com Dani@lab
+
+{
+    "sequencial":"2",
+    "hora" : "11:00:00",
+    "email" : "kaio.mattos200@gmail.com"
 }
