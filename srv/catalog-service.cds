@@ -13,6 +13,9 @@ service CatalogService @(path : '/srv') {
     entity AM_VENDAS           as projection on ALARMMONIT.AM_VENDAS;
     entity relatorioSint       as projection on ALARMMONIT.retalorioSint;
     entity retatorioAnalitico  as projection on ALARMMONIT.retalorioAnalitico;
+    entity analyticalReport       as projection on ALARMMONIT.analyticalReport;
+    entity syntheticalReport       as projection on ALARMMONIT.syntheticalReport;
+    entity relSintetico_Nivel       as projection on ALARMMONIT.relSintetico_Nivel;
     function getRelatorioSintetic (![from]: String, ![range]: Integer) returns types.rtnServiceGetRelatorioSintetic;
     action updateSLA(payload: types.AttSLAType) returns types.rtnServiceAttSLA;
 };
